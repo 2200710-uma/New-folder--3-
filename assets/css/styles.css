@@ -188,9 +188,22 @@ footer{
     min-height: 120px;    
     margin: 0;
 }
+h1{
+    text-align: center;
+}
+#about {
+    background: rgb(144, 152, 154);
+}
+#contact {
+    background: rgb(197, 211, 107);
+}
 
 .social-links {
     padding-bottom: 15px;
+}
+
+.social-networks li {
+    display: inline;
 }
 
 .social-links li a i {
