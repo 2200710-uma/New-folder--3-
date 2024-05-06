@@ -81,7 +81,16 @@
                     <p class="inline-block">
                         Cafe Westoe is traditional Sri Lankan restaurant launched on 1995.
                     </p>
-                </div>
+                    <form>
+                        <label for="fname">First Name:</label><br>
+                        <input type="text" name="fname" id="fname"><br>
+                        <label for="lname">Last Name:</label><br>
+                        <input type="text" name="lname" id="lname"><br>
+                        <label for="email">Email Address:</label><br>
+                        <input type="email" name="email" id="email" required><br>
+                        <input type="submit">
+                    </form>                    
+                </div>                
                 <div>
                     <h5 class="uppercase general-sub">Stay Connected</h5>
                     <p class="inline-block">
@@ -91,9 +100,16 @@
                             <span class="sr-only">Download link.</span>
                         </a>
                     </p>
+                    <form method="post" action="http://drupy.cafewestoe.com">
+                        <label for="feedback">Feedback</label>
+                        <br>
+                        <textarea id="feedback" cols="50" rows="10" name="feedback" placeholder="Your Feedback"></textarea>
+                        <br>
+                        <input type="submit">
+                    </form>
                 </div>                 
-            </div>
-            </div>                
+            </div>           
+            </div>            
         </footer>        
     </section>
     <footer>
