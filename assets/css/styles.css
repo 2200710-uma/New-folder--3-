@@ -187,7 +187,19 @@ footer{
     color: #fafafa;
     min-height: 120px;    
     margin: 0;
+    text-align: center;
+    
 }
+
+footer > a{
+    color: silver;
+}
+footer > a{
+    color: beige;
+    text-decoration: none;
+    padding: 0 15px
+}
+
 h1{
     text-align: center;
 }
@@ -195,7 +207,7 @@ h1{
     background: rgb(144, 152, 154);
 }
 #contact {
-    background: rgb(197, 211, 107);
+    background: rgb(190, 196, 152);
 }
 
 .social-links {
@@ -236,3 +248,5 @@ h1{
 #photo img {
     width: 100%;
 }
+
+
