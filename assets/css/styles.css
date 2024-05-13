@@ -192,12 +192,14 @@ footer{
 }
 
 footer > a{
-    color: silver;
+    color: rgb(242, 113, 39);
 }
 footer > a{
-    color: beige;
+    color: rgb(247, 247, 112);
     text-decoration: none;
     padding: 0 15px
+    position: relative;
+    top: 20%;
 }
 
 h1{
@@ -247,6 +249,17 @@ h1{
 
 #photo img {
     width: 100%;
+}
+
+#map-wrapper {
+    height: 300px;
+    margin-bottom: 107px;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    border: none;
 }
 
 
