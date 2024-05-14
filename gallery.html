@@ -3,26 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
-    <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
-    <title>CAFE WESTOE</title>    
+    <link rel="stylesheet" href="assets/css/gallery.css">
+    <title>GALLERY</title>    
 </head>
 <body>
-    <section class="header" id="home">
-        <nav>
-            <a href="index.html"><img src="assets/images/logo.jpg" alt="logo of CAFE WESTOE"></a>
-            <div class="nav-links" id="navLinks">              
-                <ul>
-                    <li><a class="active" href="index.html">HOME</a></li>
-                    <li><a class="active" href="gallery.html">GALLERY</a></li>
-                    <li><a href="#about" aria-label="Jump to the About section">ABOUT</a></li>
-                    <li><a href="#contact" aria-label="Jump to the Contact section">CONTACT</a></li>
-                </ul>
-            </div>            
-        </nav>
-    </section>
-    
+
     <div>
-        <h1>Audio</h1>
+        <a class="active" href="index.html">HOME</a>
+        <a class="active" href="gallery.html">GALLERY</a>
+        <a class="active" href="wireframes.html">WIREFRAMES</a>
+    </div>
+
+    <div>
+        <h1 class="text-center">Audio</h1>
+        <p>Learning music and you will be enjoying beautiful songs while you enjoying our traditional food on weekends. <bold>Live!</bold></p>
         <audio controls>
             <source src="assets/images/I'M YOURS.m4a" type="audio/mpeg">    
 
@@ -30,27 +24,25 @@
     </div>
 
     <div>
-        <h1>Video</h1>
+        <h1 class="text-center">Videos</h1>
         <video controls>
 
-            <source src="assets/images/video.mp4" type="video/mp4">
+            <source src="assets/images/video.mp4" width="400" type="video/mp4">
 
         </video>
     </div>
 
-
     <div>
-        <h1>Cafe Westoe Photos</h1>
+        <h1 class="text-center">Cafe Westoe Photos</h1>
     </div>
-    <section id="photo">        
+    <div class="container">        
         <img src="assets/images/img2.jpg">
         <img src="assets/images/img3.jpg">
         <img src="assets/images/img4.jpg">
         <img src="assets/images/img5.JPG">
         <img src="assets/images/img8.JPG">
-        <img src="assets/images/img9.JPG">           
-
-    </section>
+        <img src="assets/images/img9.JPG">
+    </div>
 
 </body>
 </html>
